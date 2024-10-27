@@ -32,7 +32,33 @@ function usast(usastudent){
     });
 }
 usast(students);
-
-
-// - Create a function that lists all students who are from the USA.
+console.log(`________________________________`)
 // - Write a function to find the city of a student based on their name. If the student is not found, return "Student not found".
+console.log(`1.3`);
+function stcity(mystudents){
+    for(var i=0;i<10;i++){
+        if(stname==mystudents[i].name){
+            return console.log(mystudents[i].address.city);
+        }
+    }
+    console.log(`Student not found`);
+}
+var stname='John Doe';
+stcity(students);
+console.log(`________________________________`)
+// 2. Filtering and Mapping
+// - Write a function that returns an array of all students who are above 21 years old.
+console.log(`2.1`);
+//const stabove = students.map(function(mystudents){
+const stabove = function(mystudents){
+    for(var i=0;i<mystudents.length;i++)
+    if(mystudents[i].age>21)
+        console.log(mystudents[i].name);
+}
+//)
+stabove(students);
+console.log(`________________________________`)
+// - Create a function that returns an array of names of students from a given country, like "India" or "Japan".
+console.log(`2.2`);
+
+
