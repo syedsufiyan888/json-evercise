@@ -61,4 +61,22 @@ console.log(`________________________________`)
 // - Create a function that returns an array of names of students from a given country, like "India" or "Japan".
 console.log(`2.2`);
 
+function irj(mystudents){
+    for(var i=0;i<mystudents.length;i++){
+        if(mystudents[i].address.country=="India"|"Japan"){
+            console.log(mystudents[i].name);
+        }
+    }
+}
+irj(students);
+console.log(`________________________________`)
+// - Write a function that returns an array of objects with only name and age properties for each student.
+console.log(`2.2`);
 
+function nameage(mystudents){
+    const na = mystudents.map(mystudent => (
+        {name: mystudent.name, age: mystudent.age}
+    ));
+    console.log(na);
+}
+nameage(students);
