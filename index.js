@@ -71,7 +71,7 @@ function irj(mystudents){
 irj(students);
 console.log(`________________________________`)
 // - Write a function that returns an array of objects with only name and age properties for each student.
-console.log(`2.2`);
+console.log(`2.3`);
 
 function nameage(mystudents){
     const na = mystudents.map(mystudent => (
