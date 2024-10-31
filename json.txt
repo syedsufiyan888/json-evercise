@@ -1,4 +1,4 @@
-// JSON Data Manipulation Exercises for Beginners
+// JSON Data Manipulation Exercises for Beginners.
 
 // JSON data (students array with name, age, address containing pincode, city, and country)
 // Use this data to solve the exercises
